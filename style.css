@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f9f9;
+    color: #35495e;
+}
+
+.container {
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding : 2rem ;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.10);
+}
+
+.container h2{
+    padding-left: 4rem;
+}
+
+form button,input{
+    width: 100%;
+    /* border: none; */
+    outline: none;
+    border: 1px solid #35495e;
+}
+
+form select{
+    outline: none;
+    border: none;
+}
+
+form input{
+    height: 2.2rem;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    border-radius: 0.4rem;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.amount {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.amount p{
+    margin-bottom: 0.75rem;
+}
+
+.select-container{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.select-container img{
+    height: 3rem;
+    width: 3rem;
+}
+
+button{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 1.3rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.select-container select{
+     background-color: #f4f9f9;
+}
+
+.exchange-icon i{
+    font-size: 2rem;
+    position: relative;
+    top: 0.4rem;
+}
+
+.select-container {
+    border: 1px solid #35495e;
+    border-radius: 0.72rem;
+}
+
+.select-container select{
+    height: 3rem;
+    border-radius: 3rem;
+}
+
+.msg{
+    font-size: large;
+}
+
+pre div {
+    padding-left: 3.5rem;
+
+}
+
+.msg{
+    font-size: 1.2rem;
+}
+
+
+
